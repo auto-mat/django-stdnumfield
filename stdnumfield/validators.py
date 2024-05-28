@@ -3,7 +3,7 @@ from django.core.exceptions import ValidationError
 from django.template.defaultfilters import truncatechars
 from stdnum.exceptions import ValidationError as Stdnum_ValidationError
 from django.utils.deconstruct import deconstructible
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from stdnumfield import settings
 from stdnumfield.utils import import_stdnum, listify
